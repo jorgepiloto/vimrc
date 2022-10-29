@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Clone the repository into the vim configuration directory
+git clone https://github.com/jorgepiloto/vimrc ~/.config/vim
+
+echo 'export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'' >> $XDG_CONFIG_HOME/shell/profile
