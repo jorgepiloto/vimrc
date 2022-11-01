@@ -1,3 +1,6 @@
 [submodule "pack/themes/start/volk"]
 	path = pack/themes/start/volk
 	url = git@github.com:jorgepiloto/volk
+[submodule "pack/interface/start/vim-buftabline"]
+	path = pack/interface/start/vim-buftabline
+	url = https://github.com/ap/vim-buftabline
