@@ -75,3 +75,9 @@ set noswapfile
 
 " Keep indentation of previous line while editing the file
 set autoindent
+
+" -----------------------------------------------------------------------------
+" Mappings
+" -----------------------------------------------------------------------------
+nmap <c-PageUp> <Esc>:w<CR>:bp<CR>
+nmap <c-PageDown> <Esc>:w<CR>:bn<CR>
