@@ -7,3 +7,6 @@
 [submodule "pack/interface/start/ctrlp.vim"]
 	path = pack/interface/start/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
+[submodule "pack/interface/start/vim-floaterm"]
+	path = pack/interface/start/vim-floaterm
+	url = https://github.com/voldikss/vim-floaterm
