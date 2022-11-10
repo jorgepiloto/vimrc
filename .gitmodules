@@ -10,3 +10,6 @@
 [submodule "pack/interface/start/vim-floaterm"]
 	path = pack/interface/start/vim-floaterm
 	url = https://github.com/voldikss/vim-floaterm
+[submodule "pack/lsp/start/vim-lsp"]
+	path = pack/lsp/start/vim-lsp
+	url = https://github.com/prabirshrestha/vim-lsp
