@@ -1,6 +1,13 @@
 let g:lsp_diagnostics_enabled = 1
 let g:lsp_diagnostics_echo_cursor = 1
 
+
+" Customize the LSP symbols
+let g:lsp_diagnostics_signs_error = {'text': 'XX'}
+let g:lsp_diagnostics_signs_warning = {'text': 'WW'}
+
+
+" Customize the behavior of the LSP in every buffer
 function! s:on_lsp_buffer_enabled() abort
     setlocal omnifunc=lsp#complete
     setlocal signcolumn=yes
