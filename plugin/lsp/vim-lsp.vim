@@ -13,6 +13,17 @@ hi LspWarningText ctermbg=yellow ctermfg=black
 hi! link LspWarningHighlight Normal
 hi! link LspErrorHighlight Normal
 
+
+" Use the desired LSP client for Rust
+if executable('rust-analyzer')
+  au User lsp_setup call lsp#register_server({
+        \   'name': 'Rust Language Server',
+        \   'cmd': {server_info->['rust-analyzer']},
+        \   'whitelist': ['rust'],
+        \ })
+endif
+
+
 " Customize the behavior of the LSP in every buffer
 function! s:on_lsp_buffer_enabled() abort
     setlocal omnifunc=lsp#complete
