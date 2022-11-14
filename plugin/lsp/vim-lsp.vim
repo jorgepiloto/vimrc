@@ -1,11 +1,17 @@
+" Enable LSP diagnostics by showing warnings and errors
 let g:lsp_diagnostics_enabled = 1
 let g:lsp_diagnostics_echo_cursor = 1
 
-
 " Customize the LSP symbols
-let g:lsp_diagnostics_signs_error = {'text': 'XX'}
-let g:lsp_diagnostics_signs_warning = {'text': 'WW'}
+let g:lsp_diagnostics_signs_error = {'text': '❌'}
+hi LspErrorText ctermbg=red ctermfg=black
 
+let g:lsp_diagnostics_signs_warning = {'text': '⚠️'}
+hi LspWarningText ctermbg=yellow ctermfg=black
+
+" Avoid breaking syntax when highlighting warnings and errors
+hi! link LspWarningHighlight Normal
+hi! link LspErrorHighlight Normal
 
 " Customize the behavior of the LSP in every buffer
 function! s:on_lsp_buffer_enabled() abort
