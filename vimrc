@@ -30,6 +30,7 @@ set path+=**
 
 " Show line numbers
 set number
+set relativenumber
 
 " Improve backspace experience in INSERT mode
 set backspace=indent,eol,start
