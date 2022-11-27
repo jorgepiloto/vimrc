@@ -28,3 +28,6 @@
 [submodule "pack/interface/start/vim-gitgutter"]
 	path = pack/interface/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/coding/start/autocomplpop"]
+	path = pack/coding/start/autocomplpop
+	url = https://github.com/vim-scripts/AutoComplPop/
