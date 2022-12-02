@@ -34,3 +34,6 @@
 [submodule "pack/coding/start/vimwiki"]
 	path = pack/coding/start/vimwiki
 	url = https://github.com/vimwiki/vimwiki
+[submodule "diary"]
+	path = diary
+	url = git@github.com:jorgepiloto/diary
