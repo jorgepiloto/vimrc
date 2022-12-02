@@ -37,3 +37,6 @@
 [submodule "diary"]
 	path = diary
 	url = git@github.com:jorgepiloto/diary
+[submodule "pack/interface/start/fzf.vim"]
+	path = pack/interface/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
