@@ -31,3 +31,6 @@
 [submodule "pack/coding/start/autocomplpop"]
 	path = pack/coding/start/autocomplpop
 	url = https://github.com/vim-scripts/AutoComplPop/
+[submodule "pack/coding/start/vimwiki"]
+	path = pack/coding/start/vimwiki
+	url = https://github.com/vimwiki/vimwiki
