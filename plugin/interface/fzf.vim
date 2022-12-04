@@ -1,5 +1,6 @@
 " Declare the mappings for fzf
-nmap <leader>ff :Files<CR>
+nmap <leader>fhf :Files<CR>
+nmap <leader>ff :GFiles<CR>
 nmap <leader>fc :Commits<CR>
 
 " Enable the preview window in the fzf browser
