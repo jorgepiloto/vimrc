@@ -41,10 +41,13 @@ set updatetime=100
 " Declare the leader key
 let mapleader=","
 
+" Enable syntax highlight, colorcolumn and apply the desired color theme
 set colorcolumn=80
 syntax on
 colorscheme volk
 
+" Enable mouse usage in all modes (required for scrolling in preview)
+set mouse=a
 
 " -----------------------------------------------------------------------------
 " User interface configuration
