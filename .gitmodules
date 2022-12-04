@@ -37,3 +37,6 @@
 [submodule "pack/interface/start/fzf.vim"]
 	path = pack/interface/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
+[submodule "pack/interface/start/vim-css-color"]
+	path = pack/interface/start/vim-css-color
+	url = https://github.com/ap/vim-css-color
