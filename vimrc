@@ -82,6 +82,7 @@ set autoindent
 " Move across buffers using PageUp and PageDown shortcuts
 nmap <c-PageUp> <Esc>:w<CR>:bp<CR>
 nmap <c-PageDown> <Esc>:w<CR>:bn<CR>
+nmap <c-W> <Esc>:w<CR>:bd<CR>
 
 " Use the Tab key for moving across completion pop-up menu
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
