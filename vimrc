@@ -46,9 +46,6 @@ set colorcolumn=80
 syntax on
 colorscheme volk
 
-" Enable mouse usage in all modes (required for scrolling in preview)
-set mouse=a
-
 " -----------------------------------------------------------------------------
 " User interface configuration
 " -----------------------------------------------------------------------------
