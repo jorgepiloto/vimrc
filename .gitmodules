@@ -19,9 +19,6 @@
 [submodule "pack/lsp/start/asyncomplete-lsp"]
 	path = pack/lsp/start/asyncomplete-lsp
 	url = https://github.com/prabirshrestha/asyncomplete-lsp.vim
-[submodule "pack/coding/start/auto-pairs"]
-	path = pack/coding/start/auto-pairs
-	url = https://github.com/jiangmiao/auto-pairs
 [submodule "pack/interface/start/vim-gitgutter"]
 	path = pack/interface/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
